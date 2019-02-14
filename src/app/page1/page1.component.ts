@@ -13,3 +13,4 @@ export class Page1Component implements OnInit {
   }
 
 }
+  

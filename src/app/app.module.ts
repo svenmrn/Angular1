@@ -6,13 +6,15 @@ import { HomeComponent } from './home/home.component';
 import { Page1Component } from './page1/page1.component';
 import {HttpClientModule} from '@angular/common/http';
 import { LoginComponent } from './login/login.component'
+import { WeatherpageComponent } from './weatherpage/weatherpage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     Page1Component,
-    LoginComponent
+    LoginComponent,
+    WeatherpageComponent
   ],
   imports: [
     BrowserModule
